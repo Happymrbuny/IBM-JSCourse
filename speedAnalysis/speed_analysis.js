@@ -55,6 +55,7 @@ function endTest() {
 
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
+        event.preventDefault();
         if (document.getElementById('btn').innerHTML === "Start Test")
             startTest();
         else
