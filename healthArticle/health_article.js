@@ -30,7 +30,7 @@ xhr.onload = function() {
         });
 
         var benefitsHeader = document.createElement('h3');
-        benefitsHeader.textContenet = 'Benefits:';
+        benefitsHeader.textContent = 'Benefits:';
 
         var benefitsList = document.createElement('ul');
         article.benefits.forEach(function(benefit){
